@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Nos Stagiaires</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="https://journalisme.m2iformation.fr/wp-content/uploads/2019/05/m2i-formation-logo-journalisme.png"
+              alt="Logo M2i"
+              class="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html"
+                  >Acceuil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/stagiaire.html"
+                  >Nos Stagiaires</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div>
+      <h2>Liste des stagiaires</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Nom</th>
+            <th>Prenom</th>
+            <th>Email</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <!-- <button type="button" class="btn btn-primary">Voir</button>
+                <button type="button" class="btn btn-danger">Supprimer</button> -->
+
+        <tbody id="listestagiaires"></tbody>
+      </table>
+      <!--  <a href="./contact.html"> -->
+      <input id="btnSubmit" type="submit" value="Ajouter" />
+      <!-- </a> -->
+    </div>
+
+
+    <div id=>
+      <h5 id="nom prenom"></h5>
+      <p id="email">Email:</p>
+      <p id="etude">Études faites:</p>
+      <p id="bio">Bio:</p>
+    </div>
+
+    <footer class="footerbackground">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 footer_elt-padding">
+            <h3>Notre adresse</h3>
+            <p>
+              146-148 rue de Picpus 75012 Paris Du lundi au vendredi de 9:00 à
+              17:30 Tél. : 01 44 53 36 00 Fax : 01 44 53 36 10
+              paris@m2iformation.fr
+            </p>
+          </div>
+          <div class="col-12 col-md-6 border-left footer_elt-padding">
+            <h3>S'incrire à la newsletter</h3>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Votre address email"
+                aria-label="S'inscrire"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./Liste-stagiaires.js" type="module"></script>
+  </body>
+</html>
